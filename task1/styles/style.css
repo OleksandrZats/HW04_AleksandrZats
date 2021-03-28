@@ -1,0 +1,71 @@
+* {
+  transition: all 0.1s ease-in;
+  font-family: sans-serif;
+}
+.contain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.block {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.block > div {
+  width: 64px;
+  height: 63px;
+  border-radius: 50%;
+  border: 1px solid #1275b9;
+  background-color: #1275b9;
+}
+.img1 {
+  background: url(../img/TabletBW.png) no-repeat;
+  background-size: cover;
+}
+.img2 {
+  background: url(../img/SettingsBW.png) center center no-repeat;
+  background-size: contain;
+}
+.img3 {
+  background: url(../img/DashboardBW.png) center center no-repeat;
+  background-size: contain;
+}
+
+.img1:hover {
+  background: url(../img/TabletWB.png) center center no-repeat;
+  background-size: contain;
+  background-color: #fff;
+}
+.img2:hover {
+  background: url(../img/SettingsWB.png) center center no-repeat;
+  background-size: contain;
+  background-color: #fff;
+}
+.img3:hover {
+  background: url(../img/DashboardWB.png) center center no-repeat;
+  background-size: contain;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 21px;
+  margin-top: 16px;
+}
+.description {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #9d9d9d;
+  font-weight: 300;
+  margin: 0;
+}
